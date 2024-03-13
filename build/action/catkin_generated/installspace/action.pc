@@ -1,0 +1,8 @@
+prefix=/home/proe/Documents/Brain_ROS/install
+
+Name: action
+Description: Description of action
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

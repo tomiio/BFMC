@@ -1,0 +1,8 @@
+prefix=/home/proe/Documents/Brain_ROS/devel
+
+Name: control
+Description: Description of control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

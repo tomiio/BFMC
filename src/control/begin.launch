@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="output" type="serialNODE.py" 			name="serialNODE"  			output="screen"/>
+    <node pkg="input" type="cameraNODE.py" 				name="cameraNODE"  		output="screen"/>
+</launch>

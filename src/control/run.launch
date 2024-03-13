@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="control" type="lane.py" 				    name="CAMnod"  				output="screen"/>
+    <node pkg="input"   type="camera_socket.py" 		name="SOCKETnod"		    output="screen"/>
+    <node pkg="control" type="distance.py" 			    name="DISTANCEnod"  		output="screen"/>
+    <node pkg="control" type="check.py" 				name="CHECKnod"  			output="screen"/>
+    <!--node pkg="control" type="automated2.py" 		name="AUTOMATEDnod"  		output="screen"/-->
+</launch>

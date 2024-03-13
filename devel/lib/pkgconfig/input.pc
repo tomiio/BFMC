@@ -1,0 +1,8 @@
+prefix=/home/proe/Documents/Brain_ROS/devel
+
+Name: input
+Description: Description of input
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
